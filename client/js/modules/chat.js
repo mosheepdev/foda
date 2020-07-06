@@ -4,7 +4,7 @@ game.chat = {
       game.chat.builded = true;
       game.chat.el = $('<div>').addClass('chat').appendTo(document.body).html('<h1>Chat 💬</h1>').hover(game.chat.hover);
       game.chat.dis = $('<div>').appendTo(game.chat.el).addClass('dis');
-      $('<iframe src="https://discordapp.com/widget?id=208322860333268993&theme=dark&username=' + game.player.name + '" width="350" height="400" allowtransparency="true" frameborder="0">').appendTo(game.chat.dis);
+     /* $('<iframe src="https://discordapp.com/widget?id=208322860333268993&theme=dark&username=' + game.player.name + '" width="350" height="400" allowtransparency="true" frameborder="0">').appendTo(game.chat.dis);
       /*
       game.chat.messages = $('<div>').addClass('messages').appendTo(game.chat.el);
       game.chat.input = $('<input>').appendTo(game.chat.el).attr({
