@@ -50,7 +50,7 @@ game.states.menu = {
       var hidebox = $('<div>').addClass('credithide').appendTo(creditsbox);
       var box = $('<div>').addClass('creditscroll').appendTo(hidebox);
       box.append($('<h1>').text(game.data.ui.credits));
-      box.append($('<p>').html('Creator/Dev: <a rel="nofollow noopener" href="https://github.com/rafaelcastrocouto/foda">Rafael</a>').append($('<span>').addClass('thumb doll2')));
+      /*box.append($('<p>').html('Creator/Dev: <a rel="nofollow noopener" href="https://github.com/rafaelcastrocouto/foda">Rafael</a>').append($('<span>').addClass('thumb doll2')));
       box.append($('<p>').html('Artwork: <a rel="nofollow noopener" href="https://www.youtube.com/user/dopatwo">Dopatwo</a>').append($('<span>').addClass('thumb doll1')));
       box.append($('<p>').html('Special FX: <a rel="nofollow noopener" href="https://twitter.com/DanielClarcO">Daniel Clarc</a>').append($('<span>').addClass('thumb doll3')));
       box.append($('<p>').html('Colors: <a rel="nofollow noopener" href="https://twitter.com/glitchzilla">Glitchzilla</a>').append($('<span>').addClass('thumb supp4')));
@@ -58,7 +58,7 @@ game.states.menu = {
       box.append($('<p>').html('Introduction Videos: <a rel="nofollow noopener" href="https://www.youtube.com/user/SkylentGames">Skylent</a>'));
       box.append($('<p>').html('Language (TU): <a rel="nofollow noopener" href="https://github.com/ahmetozalp">Ahmet</a>'));
       box.append($('<p>').html('Language (RU): <a rel="nofollow noopener" href="https://www.patreon.com/djcomps">DJComps</a>').append($('<span>').addClass('thumb supp3')));
-      box.append($('<p>').html('Hero (Venge): <a rel="nofollow noopener" href="https://github.com/xinton">Washington</a>'));
+      box.append($('<p>').html('Hero (Venge): <a rel="nofollow noopener" href="https://github.com/xinton">Washington</a>'));*/
       box.append($('<p>').html('<b>Beta testers:<b>'));
       box.append($('<p>').html('Mr. Skeleton'));
       box.append($('<p>').html('Fuzi'));
